@@ -1,9 +1,9 @@
 import { StyleSheet,  View } from 'react-native'
 import React from 'react'
 
-const Background = ({ children }) => {
+const Background = ({ style, children }) => {
   return (
-    <View style={styles.container}>
+    <View style={[ styles.container, style ]}>
       { children }
     </View>
   )

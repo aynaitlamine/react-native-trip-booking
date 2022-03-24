@@ -1,1 +1,5 @@
 export { default as Background } from './Background'
+export { default as HamburgerMenu } from './HamburgerMenu'
+export { default as Header } from './Header'
+export { default as Paraghraph} from './Paraghraph'
+export { default as Button} from './Button'

@@ -1,4 +1,4 @@
-import { DefaultTheme } from "react-native-paper";
+import { DefaultTheme, configureFonts } from "react-native-paper";
 
 export const  theme = {
   ...DefaultTheme,
@@ -16,19 +16,48 @@ export const  theme = {
 };
 
 
-
 const fontConfig = {
-  regular: {
-    fontFamily: "Roboto-Regular",
-    fontSize: 12,
+  web: {
+    regular: {
+      fontFamily: 'Roboto-Regular',
+      fontWeight: 'normal',
+    },
+    bold: {
+      fontFamily: 'Roboto-Bold',
+      fontWeight: 'bold',
+    },
+    black: {
+      fontFamily: 'Roboto-Black',
+      fontWeight: 	800,
+    },
   },
-  header: {
-    fontFamily: "Roboto-Black",
-    fontSize: 50,
+  ios: {
+    regular: {
+      fontFamily: 'Roboto-Regular',
+      fontWeight: 'normal',
+    },
+    bold: {
+      fontFamily: 'Roboto-Bold',
+      fontWeight: 'bold',
+    },
+    black: {
+      fontFamily: 'Roboto-Black',
+      fontWeight: 	800,
+    },
   },
-  h1: { fontFamily: "Roboto-Black", fontSize: 30 },
-  h2: { fontFamily: "Roboto-Bold", fontSize: 22 },
-  h3: { fontFamily: "Roboto-Bold", fontSize: 16 },
-  h4: { fontFamily: "Roboto-Bold", fontSize: 14 }, 
+  android: {
+    regular: {
+      fontFamily: 'Roboto-Regular',
+      fontWeight: 'normal',
+    },
+    bold: {
+      fontFamily: 'Roboto-Bold',
+      fontWeight: 'bold',
+    },
+    black: {
+      fontFamily: 'Roboto-Black',
+      fontWeight: 	800,
+    },
+  }
 };
 
